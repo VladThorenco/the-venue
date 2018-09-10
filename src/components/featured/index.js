@@ -1,0 +1,19 @@
+import React from 'react';
+import Carrousel from "./Carrousel";
+import TimeUntill from "./TimeUntill";
+
+const Features = () => {
+    return (
+        <div style={{position: 'relative'}}>
+            <Carrousel />
+            <div className="artist_name">
+                <div className="wrapper">
+                    Ariana Grande
+                </div>
+            </div>
+            <TimeUntill />
+        </div>
+    )
+};
+
+export default Features
